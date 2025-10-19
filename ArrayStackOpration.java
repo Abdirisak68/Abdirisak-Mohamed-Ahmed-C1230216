@@ -12,6 +12,8 @@ public class ArrayStackOpration {
         test1.kudar('D');
         test1.kudar('E');
         test1.kudar('F');
+        System.out.println(test1.Kabixi());
+        System.out.println(test1.Sooceli());
         test1.Bandhig();
 
 
@@ -61,7 +63,7 @@ public class ArrayStackOpration {
             return kor == 0;
         }
 
-        //peek MEthod
+        //peek Method
         public T Sooceli() {
             if (Mabanaanyahy())
                 throw new EmptyStackException();

@@ -5,11 +5,13 @@ import java.util.EmptyStackException;
 
 public class ArrayStackOpration {
     public static void main(String[] args) {
-        arrayStack<String> test1 = new arrayStack<>(3);
-        test1.kudar("batman");
-        test1.kudar("geedi");
-        test1.kudar("jaamac");
-        test1.kudar("faarah");
+        arrayStack<Character> test1 = new arrayStack<>(3);
+        test1.kudar('A');
+        test1.kudar('B');
+        test1.kudar('C');
+        test1.kudar('D');
+        test1.kudar('E');
+        test1.kudar('F');
         test1.Bandhig();
 
 
